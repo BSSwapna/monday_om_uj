@@ -6,4 +6,6 @@ int main() {
     scanf("%d", &num1);
     printf("Enter the second number: ");
     scanf("%d", &num2);
+    result = num1 - num2;
+    printf("The result of %d - %d is %d\n", num1, num2, result);
 
